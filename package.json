@@ -1,0 +1,43 @@
+{
+  "name": "vscode-rcvn-theme",
+  "displayName": "RCVN Theme",
+  "description": "Preferred dark themes by Son Vo Dang Hoang",
+  "icon": "images/Rcvn-icon.png",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vdhoangson/vscode-rcvn-theme.git"
+  },
+  "galleryBanner": {
+    "color": "#373436",
+    "theme": "dark"
+  },
+  "version": "1.0.0",
+  "publisher": "vdhoangson",
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Light Theme"
+  ],
+  "scripts": {
+    "list": "npx vsce ls",
+    "package": "npx vsce package",
+    "publish": "npx vsce publish"
+  },
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "RCVN (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/RCVN-dark-color-theme.json"
+      }
+    ]
+  }
+}
